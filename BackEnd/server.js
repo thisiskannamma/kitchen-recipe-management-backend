@@ -3,9 +3,9 @@ const connectDB=require("../BackEnd/Database");
 require("dotenv").config();
 connectDB();
 
-const authRoutes=require('../Backend/Routes/authRoutes')
-const recipeRoutes=require("../Backend/Routes/recipeRoutes")
-const categoryRoutes=require("../Backend/Routes/categoryRoutes")
+const authRoutes=require('../BackEnd/Routes/authRoutes')
+const recipeRoutes=require("../BackEnd/Routes/recipeRoutes")
+const categoryRoutes=require("../BackEnd/Routes/categoryRoutes")
 
 const app=express();
 app.use(express.json());
