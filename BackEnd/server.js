@@ -26,15 +26,19 @@ app.listen(PORT,()=>{console.log(`server conneted to port ${PORT}`)});
 app.get('/', (req, res) => res.send(`
 <div>
 <p>Because my rendor app couldn't able to connect to mongoDB compass.please use this link to check details  </p>
-<p>To get all mentor List - <a>http://localhost:5000/Mentors<a> </p>
+<p>To get all Recipes List - <a>http://localhost:3000/recipe/recipes<a> </p>
 <br>
-<p>To get all Students List - http://localhost:5000/Students </p>
+<p>To get Recipe based on ID  - http://localhost:3000/recipe/65ba72a09c103f248258b089</p>
 <br>
-<p>To get mentor based on ID - http://localhost:5000/Mentors/get-mentor/65a4d070b0657ec3378751c5<p>
+<p>To get Recipe based on category(veg) - http://localhost:3000/category/veg<p>
 <br>
-<p>To get students with no mentor - http://localhost:5000/Students/no-mentors<p>
+<p>To get Recipe based on category(non-veg) - http://localhost:3000/category/non-veg<p>
 <br>
-<p>To get all students for a particular mentor - http://localhost:5000/Students/mentor-students/65a4ce5db0657ec3378751c0 </p>
+<p>To get Recipe based on category(baked) - http://localhost:3000/category/baked </p>
+<br>
+<p>To get Recipe based on category(grilled) - http://localhost:3000/category/grilled </p>
+<br>
+<p>To get Recipe based on category(chilled) - http://localhost:3000/category/chilled </p>
 <br>
 
 
