@@ -26,19 +26,19 @@ app.listen(PORT,()=>{console.log(`server conneted to port ${PORT}`)});
 app.get('/', (req, res) => res.send(`
 <div>
 <p>Because my rendor app couldn't able to connect to mongoDB compass.please use this link to check details  </p>
-<p>To get all Recipes List - <a>http://localhost:3000/recipe/recipes<a> </p>
+<p>To get all Recipes List - <a>https://recipe-1.onrender.com/recipe/recipes<a> </p>
 <br>
-<p>To get Recipe based on ID  - http://localhost:3000/recipe/65ba72a09c103f248258b089</p>
+<p>To get Recipe based on ID  - https://recipe-1.onrender.com/recipe/65ba72a09c103f248258b089</p>
 <br>
-<p>To get Recipe based on category(veg) - http://localhost:3000/category/veg<p>
+<p>To get Recipe based on category(veg) - https://recipe-1.onrender.com/category/veg<p>
 <br>
-<p>To get Recipe based on category(non-veg) - http://localhost:3000/category/non-veg<p>
+<p>To get Recipe based on category(non-veg) - https://recipe-1.onrender.com/category/non-veg<p>
 <br>
-<p>To get Recipe based on category(baked) - http://localhost:3000/category/baked </p>
+<p>To get Recipe based on category(baked) - https://recipe-1.onrender.com/category/baked </p>
 <br>
-<p>To get Recipe based on category(grilled) - http://localhost:3000/category/grilled </p>
+<p>To get Recipe based on category(grilled) - https://recipe-1.onrender.com/category/grilled </p>
 <br>
-<p>To get Recipe based on category(chilled) - http://localhost:3000/category/chilled </p>
+<p>To get Recipe based on category(chilled) - https://recipe-1.onrender.com/category/chilled </p>
 <br>
 
 
