@@ -25,7 +25,7 @@ app.listen(PORT,()=>{console.log(`server conneted to port ${PORT}`)});
 
 app.get('/', (req, res) => res.send(`
 <div>
-<p>Because my rendor app couldn't able to connect to mongoDB compass.please use this link to check details  </p>
+<p>please use this link to check details  </p>
 <p>To get all Recipes List - <a>https://recipe-1.onrender.com/recipe/recipes<a> </p>
 <br>
 <p>To get Recipe based on ID  - https://recipe-1.onrender.com/recipe/65ba72a09c103f248258b089</p>
